@@ -1,0 +1,1 @@
+cmd_/home/clone/proyectos/Eudyptula/Task01/Hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-23-generic/scripts/module-common.lds --build-id  -o /home/clone/proyectos/Eudyptula/Task01/Hello.ko /home/clone/proyectos/Eudyptula/Task01/Hello.o /home/clone/proyectos/Eudyptula/Task01/Hello.mod.o

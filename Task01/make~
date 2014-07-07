@@ -1,0 +1,12 @@
+obj-m +=Hello.o
+
+KDIR= /usr/src/linux-2.6.33.1
+
+all:
+
+     $(MAKE) -C $(KDIR) SUBDIRS=$(PWD) modules
+
+clean:
+
+     rm -rf *.o *.ko *.mod.* .c* .t*
+
